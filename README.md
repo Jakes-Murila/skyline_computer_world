@@ -1,16 +1,78 @@
-# React + Vite
+# Skyline Computer World
+A modern, responsive business website for Skyline Computer World, a tech retail and services company specializing in laptops, accessories, CCTV systems, and computer repairs.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Project Overview
+This project is a 3-page marketing and sales website designed to convert visitors into WhatsApp leads and in-store customers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+It also includes a digital growth strategy framework combining:
+- Website presence
+- WhatsApp lead generation
+- Basic social media marketing support
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Business Focus
+Skyline Computer World provides:
+- Laptop sales
+- Computer accessories
+- Power adapters & peripherals
+- CCTV installation & sales
+- Computer repair & maintenance
+- Technical support services
 
-## Expanding the ESLint configuration
+# Project Goal
+- Drive WhatsApp inquiries and sales
+- Build strong local digital presence
+- Showcase products and services professionally
+- Improve customer trust and visibility
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Website Structure
+# 1. Home Page
+- Hero section with CTA (WhatsApp + View Products)
+- Company introduction
+- Featured products
+- Why choose us section
+- Featured services
+- Customer testimonials
+- WhatsApp CTA banner
+- Footer with contact details
+
+# 2. Services & Stock Page
+- Product categories:
+  - Laptops
+  - Monitors
+  - Keyboards
+  - Mice
+  - Printers
+  - CCTV systems
+  - Accessories & adapters
+
+- Each product card includes:
+  - Image
+  - Name
+  - Description
+  - Price placeholder
+  - WhatsApp inquiry button
+
+- Services section:
+  - CCTV installation
+  - Laptop repair
+  - Software installation
+  - Networking support
+  - Maintenance services
+
+
+# 3. Contact Page
+- Contact information
+- Contact form
+- Embedded Google Maps placeholder
+- Location: Terry House Stalls
+- WhatsApp button
+- Email and business hours
+
+# Tech Stack
+- React (Vite)
+- Tailwind CSS
+- Framer Motion
+- React Router
