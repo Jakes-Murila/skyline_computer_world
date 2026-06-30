@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1f2937;
+  background: #ffffff;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  backdrop-filter: blur(18px);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(37, 99, 235, 0.11) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.11) 1px, transparent 1px);
+  background-size: 44px 44px;
+}

@@ -1,78 +1,26 @@
 # Skyline Computer World
-A modern, responsive business website for Skyline Computer World, a tech retail and services company specializing in laptops, accessories, CCTV systems, and computer repairs.
 
+Skyline Computer World is a production-oriented technology marketplace platform for products, IT services, support, business procurement, and future AI-assisted shopping.
 
-# Project Overview
-This project is a 3-page marketing and sales website designed to convert visitors into WhatsApp leads and in-store customers.
+## Architecture
 
-It also includes a digital growth strategy framework combining:
-- Website presence
-- WhatsApp lead generation
-- Basic social media marketing support
+- `apps/web`: React, Vite, Tailwind CSS, React Router, Framer Motion, React Hook Form, Zod, Axios.
+- `apps/api`: Node.js, Express.js, JWT-ready authentication, validation, security middleware, REST modules.
+- `packages/shared`: Shared product, service, cart, and validation contracts.
+- `db/schema.sql`: PostgreSQL schema for marketplace, orders, support, appointments, analytics foundations.
+- `docs/architecture.md`: Phase notes, decisions, deployment plan, and future roadmap.
 
+## Run Locally
 
-# Business Focus
-Skyline Computer World provides:
-- Laptop sales
-- Computer accessories
-- Power adapters & peripherals
-- CCTV installation & sales
-- Computer repair & maintenance
-- Technical support services
+```bash
+npm install
+npm run dev
+```
 
-# Project Goal
-- Drive WhatsApp inquiries and sales
-- Build strong local digital presence
-- Showcase products and services professionally
-- Improve customer trust and visibility
+Frontend: `http://localhost:5173`
 
+API: `http://localhost:4000/api/health`
 
-# Website Structure
-# 1. Home Page
-- Hero section with CTA (WhatsApp + View Products)
-- Company introduction
-- Featured products
-- Why choose us section
-- Featured services
-- Customer testimonials
-- WhatsApp CTA banner
-- Footer with contact details
+## Environment
 
-# 2. Services & Stock Page
-- Product categories:
-  - Laptops
-  - Monitors
-  - Keyboards
-  - Mice
-  - Printers
-  - CCTV systems
-  - Accessories & adapters
-
-- Each product card includes:
-  - Image
-  - Name
-  - Description
-  - Price placeholder
-  - WhatsApp inquiry button
-
-- Services section:
-  - CCTV installation
-  - Laptop repair
-  - Software installation
-  - Networking support
-  - Maintenance services
-
-
-# 3. Contact Page
-- Contact information
-- Contact form
-- Embedded Google Maps placeholder
-- Location: Terry House Stalls
-- WhatsApp button
-- Email and business hours
-
-# Tech Stack
-- React (Vite)
-- Tailwind CSS
-- Framer Motion
-- React Router
+Copy `.env.example` into `apps/api/.env` and configure production values before deployment.
